@@ -52,8 +52,9 @@ async def start_command(client, message):
     user_mention = message.from_user.mention
     reply_message = f"ᴡᴇʟᴄᴏᴍᴇ, {user_mention}.\n\n🌟 ɪ ᴀᴍ ᴀ ᴛᴇʀᴀʙᴏx ᴅᴏᴡɴʟᴏᴀᴅᴇʀ ʙᴏᴛ. sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴛᴇʀᴀʙᴏx ʟɪɴᴋ ɪ ᴡɪʟʟ ᴅᴏᴡɴʟᴏᴀᴅ ᴡɪᴛʜɪɴ ғᴇᴡ sᴇᴄᴏɴᴅs ᴀɴᴅ sᴇɴᴅ ɪᴛ ᴛᴏ ʏᴏᴜ ✨."
     join_button = InlineKeyboardButton("ᴊᴏɪɴ ❤️🚀", url="https://t.me/am_films")
-    developer_button = InlineKeyboardButton("ꜱᴜᴩᴩᴏʀᴛ ⚡️", url="https://t.me/AM_UPLOAD9",InlineKeyboardButton("ᴅᴇᴠ ⚒️", url="https://t.me/GUARDIANff")
-    reply_markup = InlineKeyboardMarkup([[join_button, developer_button]])
+    developer_button = InlineKeyboardButton("ꜱᴜᴩᴩᴏʀᴛ ⚡️", url="https://t.me/AM_UPLOAD9")
+    owner_button = InlineKeyboardButton("ᴅᴇᴠ ⚒️", url="https://t.me/GUARDIANff")
+    reply_markup = InlineKeyboardMarkup([[join_button, developer_button, owner_buton]])
     await message.reply_text(reply_message, reply_markup=reply_markup)
 
 async def is_user_member(client, user_id):
