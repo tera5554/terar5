@@ -17,5 +17,5 @@ Terabox API/Base Code [**HERE**](https://t.me/Privates_Bots/7212).
 
 ## Deploy using CLI
 
-- Deployment instructions uploaded [**HERE**](https://gist.github.com/Hrishi2861/3f04a05b4d86241a454bd284ed1c3dee)
+- Deployment instructions uploaded [**HERE**](https://gist.github.com/Guardianff/410eea72684f0b2997e29c8de020c6de)
 - Carefully copy-paste every CMD one by one. If you miss maybe your BOT will not run.
